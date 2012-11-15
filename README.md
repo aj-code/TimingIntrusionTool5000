@@ -3,6 +3,8 @@ TimingIntrusionTool5000
 
 TimingIntrusionTool5000 is a tool for performing timing attacks on plaintext and hashed network password authentication. A novel technique is employed to infer the prefix of a hash of a user's password. This prefix can then be used to eliminate passwords from a standard wordlist and fall back to a good ol' fashioned brute force (with hydra or whatever). With large passwords lists (over 100 million words) this can significantly speed up the attack on vulnerable servers over fast networks.
 
+Ideas and contributions are welcome, email me at <aj@shinynightmares.com>.
+
 
 Features
 --------
